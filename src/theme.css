@@ -1,0 +1,59 @@
+.play {
+  --salt-text-display1-fontFamily: "Playfair Display", serif;
+  --salt-text-display1-fontSize: 92px;
+  --salt-text-display2-fontFamily: "Playfair Display", serif;
+  --salt-text-display3-fontFamily: "Playfair Display", serif;
+
+  --saltButton-borderRadius: var(--salt-size-bar);
+  --saltCard-borderRadius: var(--salt-size-selectable);
+
+  --salt-selectable-foreground-hover: var(--salt-color-teal-400);
+  --salt-selectable-background-hover: var(--salt-color-teal-300);
+  --salt-selectable-borderColor-hover: var(--salt-color-teal-300);
+  --salt-selectable-foreground-selected: var(--salt-color-teal-500);
+  --salt-selectable-background-selected: var(--salt-color-teal-300);
+  --salt-selectable-borderColor-selected: var(--salt-color-teal-300);
+}
+
+.play .saltCard {
+  border-radius: var(--saltCard-borderRadius);
+}
+
+.play .saltInput {
+  border: 1px solid var(--salt-color-gray-50);
+  border-radius: var(--saltButton-borderRadius);
+}
+
+.play .saltInput:focus-within {
+  border-color: var(--salt-color-blue-500);
+}
+
+.play .saltInput-activationIndicator {
+  display: none;
+}
+
+.play .saltSwitch-track,
+.play .saltSwitch-thumb,
+.play .saltSwitch-thumb .saltIcon {
+  border-radius: var(--salt-size-adornment);
+}
+
+[data-mode="light"].play .saltButton-primary {
+  --saltButton-background: var(--salt-color-teal-20);
+  --saltButton-text-color: var(--salt-color-teal-700);
+  --saltButton-background-hover: var(--salt-color-teal-10);
+  --saltButton-text-color-hover: var(--salt-color-teal-700);
+}
+
+.play .saltButton-cta {
+  --saltButton-background: var(--salt-color-teal-600);
+  --saltButton-background-hover: var(--salt-color-teal-500);
+}
+
+[data-mode="dark"].play .saltInput {
+  border-color: var(--salt-color-gray-300);
+}
+
+[data-mode="dark"].play .saltInput:focus-within {
+  border-color: var(--salt-color-blue-300);
+}

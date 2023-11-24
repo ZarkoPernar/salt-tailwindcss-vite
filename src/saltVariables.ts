@@ -1,4 +1,4 @@
-{
+export default {
   "--salt-accent-fontSize": "14px",
   "--salt-accent-lineHeight": "18px",
   "--salt-accent-background": "var(--salt-palette-accent-background)",

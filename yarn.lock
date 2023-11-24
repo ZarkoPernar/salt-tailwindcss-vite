@@ -12,6 +12,18 @@
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@alloc/quick-lru/-/quick-lru-5.2.0.tgz#7bf68b20c0a350f936915fcae06f58e32007ce30"
   integrity sha1-e/aLIMCjUPk2kV/K4G9Y4yAHzjA=
 
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2":
+  version "7.23.1"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@babel/runtime/-/runtime-7.23.1.tgz#72741dc4d413338a91dcb044a86f3c0bc402646d"
+  integrity sha1-cnQdxNQTM4qR3LBEqG88C8QCZG0=
+  dependencies:
+    regenerator-runtime "^0.14.0"
+
+"@emotion/hash@^0.9.0":
+  version "0.9.1"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@emotion/hash/-/hash-0.9.1.tgz#4ffb0055f7ef676ebc3a5a91fb621393294e2f43"
+  integrity sha1-T/sAVffvZ268OlqR+2ITkylOL0M=
+
 "@esbuild/android-arm64@0.18.20":
   version "0.18.20"
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@esbuild/android-arm64/-/android-arm64-0.18.20.tgz#984b4f9c8d0377443cc2dfcef266d02244593622"
@@ -190,6 +202,90 @@
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@floating-ui/utils/-/utils-0.1.4.tgz#19654d1026cc410975d46445180e70a5089b3e7d"
   integrity sha1-GWVNECbMQQl11GRFGA5wpQibPn0=
 
+"@fluentui/keyboard-keys@^9.0.6":
+  version "9.0.6"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@fluentui/keyboard-keys/-/keyboard-keys-9.0.6.tgz#62449f81223f5a2c2755ff6f286b6e47f1b93135"
+  integrity sha1-YkSfgSI/WiwnVf9vKGtuR/G5MTU=
+  dependencies:
+    "@swc/helpers" "^0.5.1"
+
+"@fluentui/priority-overflow@^9.1.7":
+  version "9.1.7"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@fluentui/priority-overflow/-/priority-overflow-9.1.7.tgz#061bc9235b318e9d613d11f2e2cdc37fbb551ce2"
+  integrity sha1-BhvJI1sxjp1hPRHy4s3Df7tVHOI=
+  dependencies:
+    "@swc/helpers" "^0.5.1"
+
+"@fluentui/react-context-selector@^9.1.38":
+  version "9.1.38"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@fluentui/react-context-selector/-/react-context-selector-9.1.38.tgz#309920fac44c18f19093a447dc57a2150581f92a"
+  integrity sha1-MJkg+sRMGPGQk6RH3FeiFQWB+So=
+  dependencies:
+    "@fluentui/react-utilities" "^9.14.1"
+    "@swc/helpers" "^0.5.1"
+
+"@fluentui/react-overflow@^9.0.19":
+  version "9.0.37"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@fluentui/react-overflow/-/react-overflow-9.0.37.tgz#79b2b5f8b86d2453ee9a0d4d80dacbd63b4da8c4"
+  integrity sha1-ebK1+LhtJFPumg1NgNrL1jtNqMQ=
+  dependencies:
+    "@fluentui/priority-overflow" "^9.1.7"
+    "@fluentui/react-context-selector" "^9.1.38"
+    "@fluentui/react-theme" "^9.1.14"
+    "@fluentui/react-utilities" "^9.14.1"
+    "@griffel/react" "^1.5.14"
+    "@swc/helpers" "^0.5.1"
+
+"@fluentui/react-theme@^9.1.14":
+  version "9.1.14"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@fluentui/react-theme/-/react-theme-9.1.14.tgz#148bda28deeb6877cab37175d68c795bffd99f90"
+  integrity sha1-FIvaKN7raHfKs3F11ox5W//Zn5A=
+  dependencies:
+    "@fluentui/tokens" "1.0.0-alpha.11"
+    "@swc/helpers" "^0.5.1"
+
+"@fluentui/react-utilities@^9.14.1":
+  version "9.14.1"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@fluentui/react-utilities/-/react-utilities-9.14.1.tgz#582ba32e454cbeab8c826de599f315e45a076337"
+  integrity sha1-WCujLkVMvquMgm3lmfMV5FoHYzc=
+  dependencies:
+    "@fluentui/keyboard-keys" "^9.0.6"
+    "@swc/helpers" "^0.5.1"
+
+"@fluentui/tokens@1.0.0-alpha.11":
+  version "1.0.0-alpha.11"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@fluentui/tokens/-/tokens-1.0.0-alpha.11.tgz#65c1e69808dbb87d8756f31351ddf69705e0acaa"
+  integrity sha1-ZcHmmAjbuH2HVvMTUd32lwXgrKo=
+  dependencies:
+    "@swc/helpers" "^0.5.1"
+
+"@griffel/core@^1.14.3":
+  version "1.14.3"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@griffel/core/-/core-1.14.3.tgz#b4a0ebdcab42c57f757f4bc0e56c2840fa8c417c"
+  integrity sha1-tKDr3KtCxX91f0vA5WwoQPqMQXw=
+  dependencies:
+    "@emotion/hash" "^0.9.0"
+    "@griffel/style-types" "^1.0.2"
+    csstype "^3.1.2"
+    rtl-css-js "^1.16.1"
+    stylis "^4.2.0"
+    tslib "^2.1.0"
+
+"@griffel/react@^1.5.14":
+  version "1.5.16"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@griffel/react/-/react-1.5.16.tgz#46931b5a702d12262ebbf2d26ced06426b3a5013"
+  integrity sha1-RpMbWnAtEiYuu/LSbO0GQms6UBM=
+  dependencies:
+    "@griffel/core" "^1.14.3"
+    tslib "^2.1.0"
+
+"@griffel/style-types@^1.0.2":
+  version "1.0.2"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@griffel/style-types/-/style-types-1.0.2.tgz#9944b297e39f35308d109ee41b3757ce0b5c9a26"
+  integrity sha1-mUSyl+OfNTCNEJ7kGzdXzgtcmiY=
+  dependencies:
+    csstype "^3.1.2"
+
 "@humanwhocodes/config-array@^0.11.11":
   version "0.11.11"
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@humanwhocodes/config-array/-/config-array-0.11.11.tgz#88a04c570dbbc7dd943e4712429c3df09bc32844"
@@ -208,6 +304,18 @@
   version "1.2.1"
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha1-tSBSnsIdjllFoYUd/Rwy6U45/0U=
+
+"@icons/material@^0.2.4":
+  version "0.2.4"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@icons/material/-/material-0.2.4.tgz#e90c9f71768b3736e76d7dd6783fc6c2afa88bc8"
+  integrity sha1-6QyfcXaLNzbnbX3WeD/Gwq+oi8g=
+
+"@internationalized/date@^3.0.0":
+  version "3.5.0"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@internationalized/date/-/date-3.5.0.tgz#67f1dd62355f05140cc80e324842e9bfb4553abe"
+  integrity sha1-Z/HdYjVfBRQMyA4ySELpv7RVOr4=
+  dependencies:
+    "@swc/helpers" "^0.5.0"
 
 "@jridgewell/gen-mapping@^0.3.2":
   version "0.3.3"
@@ -262,14 +370,14 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@salt-ds/core@^1.8.2":
-  version "1.8.2"
-  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@salt-ds/core/-/core-1.8.2.tgz#411aa617734361404f628cd8bacd46167ccee535"
-  integrity sha1-QRqmF3NDYUBPYozYus1GFnzO5TU=
+"@salt-ds/core@^1.12.0", "@salt-ds/core@^1.13.0":
+  version "1.13.0"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@salt-ds/core/-/core-1.13.0.tgz#453bff8d7cc2f42e650b337a8077544c4bbeb54b"
+  integrity sha1-RTv/jXzC9C5lCzN6gHdUTEu+tUs=
   dependencies:
     "@floating-ui/react" "^0.23.0"
-    "@salt-ds/icons" "^1.7.0"
-    "@salt-ds/styles" "^0.1.1"
+    "@salt-ds/icons" "^1.8.0"
+    "@salt-ds/styles" "^0.2.0"
     "@salt-ds/window" "^0.1.1"
     clsx "^2.0.0"
 
@@ -282,15 +390,59 @@
     "@salt-ds/window" "^0.1.1"
     clsx "^2.0.0"
 
+"@salt-ds/icons@^1.8.0":
+  version "1.8.0"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@salt-ds/icons/-/icons-1.8.0.tgz#8fc6186837ae1c8431e390737156862b2154b337"
+  integrity sha1-j8YYaDeuHIQx45BzcVaGKyFUszc=
+  dependencies:
+    "@salt-ds/styles" "^0.2.0"
+    "@salt-ds/window" "^0.1.1"
+    clsx "^2.0.0"
+
+"@salt-ds/lab@^1.0.0-alpha.22":
+  version "1.0.0-alpha.22"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@salt-ds/lab/-/lab-1.0.0-alpha.22.tgz#7c58fc4423c0fa22ba7a1850180b829bbf02f8c1"
+  integrity sha1-fFj8RCPA+iK6ehhQGAuCm78C+ME=
+  dependencies:
+    "@floating-ui/react" "^0.23.0"
+    "@fluentui/react-overflow" "^9.0.19"
+    "@internationalized/date" "^3.0.0"
+    "@salt-ds/core" "^1.12.0"
+    "@salt-ds/icons" "^1.7.0"
+    "@salt-ds/styles" "^0.1.2"
+    "@salt-ds/window" "^0.1.1"
+    "@types/react-window" "^1.8.2"
+    aria-hidden "^1.1.1"
+    attr-accept "^2.0.0"
+    clipboard-copy "^4.0.1"
+    clsx "^2.0.0"
+    compute-scroll-into-view "^3.0.0"
+    deepmerge "^4.2.2"
+    no-scroll "^2.1.1"
+    react-color "^2.19.3"
+    react-window "^1.8.6"
+    rifm "^0.12.0"
+    tinycolor2 "^1.4.2"
+
 "@salt-ds/styles@^0.1.1":
   version "0.1.1"
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@salt-ds/styles/-/styles-0.1.1.tgz#94ad206fab56cc2675a664661bdd6e67aae7c230"
   integrity sha1-lK0gb6tWzCZ1pmRmG91uZ6rnwjA=
 
-"@salt-ds/theme@^1.8.0":
-  version "1.8.0"
-  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@salt-ds/theme/-/theme-1.8.0.tgz#b663d7cee17b0e9f684a774b186d3ab7278803e2"
-  integrity sha1-tmPXzuF7Dp9oSndLGG06tyeIA+I=
+"@salt-ds/styles@^0.1.2":
+  version "0.1.2"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@salt-ds/styles/-/styles-0.1.2.tgz#1d2d30ea9a239621513ca004750818edae341230"
+  integrity sha1-HS0w6pojliFRPKAEdQgY7a40EjA=
+
+"@salt-ds/styles@^0.2.0":
+  version "0.2.0"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@salt-ds/styles/-/styles-0.2.0.tgz#2642697318285396a1263543ebb054e2e1789987"
+  integrity sha1-JkJpcxgoU5ahJjVD67BU4uF4mYc=
+
+"@salt-ds/theme@^1.10.0":
+  version "1.10.0"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@salt-ds/theme/-/theme-1.10.0.tgz#3ec28d622472bd8c1e5037bd7211065209b7e2cb"
+  integrity sha1-PsKNYiRyvYweUDe9chEGUgm34ss=
 
 "@salt-ds/window@^0.1.1":
   version "0.1.1"
@@ -371,6 +523,13 @@
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@swc/counter/-/counter-0.1.1.tgz#e8d066c653883238c291d8fdd8b36ed932e87920"
   integrity sha1-6NBmxlOIMjjCkdj92LNu2TLoeSA=
 
+"@swc/helpers@^0.5.0", "@swc/helpers@^0.5.1":
+  version "0.5.3"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@swc/helpers/-/helpers-0.5.3.tgz#98c6da1e196f5f08f977658b80d6bd941b5f294f"
+  integrity sha1-mMbaHhlvXwj5d2WLgNa9lBtfKU8=
+  dependencies:
+    tslib "^2.4.0"
+
 "@swc/types@^0.1.5":
   version "0.1.5"
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@swc/types/-/types-0.1.5.tgz#043b731d4f56a79b4897a3de1af35e75d56bc63a"
@@ -390,6 +549,13 @@
   version "18.2.7"
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@types/react-dom/-/react-dom-18.2.7.tgz#67222a08c0a6ae0a0da33c3532348277c70abb63"
   integrity sha1-ZyIqCMCmrgoNozw1MjSCd8cKu2M=
+  dependencies:
+    "@types/react" "*"
+
+"@types/react-window@^1.8.2":
+  version "1.8.6"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/@types/react-window/-/react-window-1.8.6.tgz#4faba05b86abd36f40b612a5b02e28fadcf95c7c"
+  integrity sha1-T6ugW4ar029AthKlsC4o+tz5XHw=
   dependencies:
     "@types/react" "*"
 
@@ -558,7 +724,7 @@ argparse@^2.0.1:
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/argparse/-/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
   integrity sha1-JG9Q88p4oyQPbJl+ipvR6sSeSzg=
 
-aria-hidden@^1.1.3:
+aria-hidden@^1.1.1, aria-hidden@^1.1.3:
   version "1.2.3"
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/aria-hidden/-/aria-hidden-1.2.3.tgz#14aeb7fb692bbb72d69bebfa47279c1fd725e954"
   integrity sha1-FK63+2kru3LWm+v6RyecH9cl6VQ=
@@ -569,6 +735,11 @@ array-union@^2.1.0:
   version "2.1.0"
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/array-union/-/array-union-2.1.0.tgz#b798420adbeb1de828d84acd8a2e23d3efe85e8d"
   integrity sha1-t5hCCtvrHego2ErNii4j0+/oXo0=
+
+attr-accept@^2.0.0:
+  version "2.2.2"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/attr-accept/-/attr-accept-2.2.2.tgz#646613809660110749e92f2c10833b70968d929b"
+  integrity sha1-ZGYTgJZgEQdJ6S8sEIM7cJaNkps=
 
 autoprefixer@^10.4.16:
   version "10.4.16"
@@ -655,6 +826,11 @@ chokidar@^3.5.3:
   optionalDependencies:
     fsevents "~2.3.2"
 
+clipboard-copy@^4.0.1:
+  version "4.0.1"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/clipboard-copy/-/clipboard-copy-4.0.1.tgz#326ef9726d4ffe72d9a82a7bbe19379de692017d"
+  integrity sha1-Mm75cm1P/nLZqCp7vhk3neaSAX0=
+
 clsx@^2.0.0:
   version "2.0.0"
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/clsx/-/clsx-2.0.0.tgz#12658f3fd98fafe62075595a5c30e43d18f3d00b"
@@ -677,6 +853,11 @@ commander@^4.0.0:
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/commander/-/commander-4.1.1.tgz#9fd602bd936294e9e9ef46a3f4d6964044b18068"
   integrity sha1-n9YCvZNilOnp70aj9NaWQESxgGg=
 
+compute-scroll-into-view@^3.0.0:
+  version "3.1.0"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/compute-scroll-into-view/-/compute-scroll-into-view-3.1.0.tgz#753f11d972596558d8fe7c6bcbc8497690ab4c87"
+  integrity sha1-dT8R2XJZZVjY/nxry8hJdpCrTIc=
+
 concat-map@0.0.1:
   version "0.0.1"
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
@@ -696,7 +877,7 @@ cssesc@^3.0.0:
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
   integrity sha1-N3QZGZA7hoVl4cCep0dEXNGJg+4=
 
-csstype@^3.0.2:
+csstype@^3.0.2, csstype@^3.1.2:
   version "3.1.2"
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/csstype/-/csstype-3.1.2.tgz#1d4bf9d572f11c14031f0436e1c10bc1f571f50b"
   integrity sha1-HUv51XLxHBQDHwQ24cELwfVx9Qs=
@@ -712,6 +893,11 @@ deep-is@^0.1.3:
   version "0.1.4"
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/deep-is/-/deep-is-0.1.4.tgz#a6f2dce612fadd2ef1f519b73551f17e85199831"
   integrity sha1-pvLc5hL63S7x9Rm3NVHxfoUZmDE=
+
+deepmerge@^4.2.2:
+  version "4.3.1"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/deepmerge/-/deepmerge-4.3.1.tgz#44b5f2147cd3b00d4b56137685966f26fd25dd4a"
+  integrity sha1-RLXyFHzTsA1LVhN2hZZvJv0l3Uo=
 
 didyoumean@^1.2.2:
   version "1.2.2"
@@ -1191,12 +1377,22 @@ locate-path@^6.0.0:
   dependencies:
     p-locate "^5.0.0"
 
+lodash-es@^4.17.15:
+  version "4.17.21"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
+  integrity sha1-Q+YmxG5lkbd1C+srUBFzkMYJ4+4=
+
 lodash.merge@^4.6.2:
   version "4.6.2"
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
   integrity sha1-VYqlO0O2YeGSWgr9+japoQhf5Xo=
 
-loose-envify@^1.1.0:
+lodash@^4.0.1, lodash@^4.17.15:
+  version "4.17.21"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw=
+
+loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8=
@@ -1209,6 +1405,16 @@ lru-cache@^6.0.0:
   integrity sha1-bW/mVw69lqr5D8rR2vo7JWbbOpQ=
   dependencies:
     yallist "^4.0.0"
+
+material-colors@^1.2.1:
+  version "1.2.6"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/material-colors/-/material-colors-1.2.6.tgz#6d1958871126992ceecc72f4bcc4d8f010865f46"
+  integrity sha1-bRlYhxEmmSzuzHL0vMTY8BCGX0Y=
+
+"memoize-one@>=3.1.1 <6":
+  version "5.2.1"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/memoize-one/-/memoize-one-5.2.1.tgz#8337aa3c4335581839ec01c3d594090cebe8f00e"
+  integrity sha1-gzeqPEM1WBg57AHD1ZQJDOvo8A4=
 
 merge2@^1.3.0, merge2@^1.4.1:
   version "1.4.1"
@@ -1259,6 +1465,11 @@ natural-compare@^1.4.0:
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
+no-scroll@^2.1.1:
+  version "2.1.1"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/no-scroll/-/no-scroll-2.1.1.tgz#f37e08cb159b75a5bdbfc0a87cd9223e120e6e27"
+  integrity sha1-834IyxWbdaW9v8CofNkiPhIObic=
+
 node-releases@^2.0.13:
   version "2.0.13"
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/node-releases/-/node-releases-2.0.13.tgz#d5ed1627c23e3461e819b02e57b75e4899b1c81d"
@@ -1274,7 +1485,7 @@ normalize-range@^0.1.2:
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/normalize-range/-/normalize-range-0.1.2.tgz#2d10c06bdfd312ea9777695a4d28439456b75942"
   integrity sha1-LRDAa9/TEuqXd2laTShDlFa3WUI=
 
-object-assign@^4.0.1:
+object-assign@^4.0.1, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
@@ -1427,6 +1638,15 @@ prelude-ls@^1.2.1:
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha1-3rxkidem5rDnYRiIzsiAM30xY5Y=
 
+prop-types@^15.5.10:
+  version "15.8.1"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
+  integrity sha1-Z9h78aaU9IQ1zzMsJK8QIUoxQLU=
+  dependencies:
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.13.1"
+
 punycode@^2.1.0:
   version "2.3.0"
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/punycode/-/punycode-2.3.0.tgz#f67fa67c94da8f4d0cfff981aee4118064199b8f"
@@ -1437,6 +1657,19 @@ queue-microtask@^1.2.2:
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha1-SSkii7xyTfrEPg77BYyve2z7YkM=
 
+react-color@^2.19.3:
+  version "2.19.3"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/react-color/-/react-color-2.19.3.tgz#ec6c6b4568312a3c6a18420ab0472e146aa5683d"
+  integrity sha1-7GxrRWgxKjxqGEIKsEcuFGqlaD0=
+  dependencies:
+    "@icons/material" "^0.2.4"
+    lodash "^4.17.15"
+    lodash-es "^4.17.15"
+    material-colors "^1.2.1"
+    prop-types "^15.5.10"
+    reactcss "^1.2.0"
+    tinycolor2 "^1.4.1"
+
 react-dom@^18.2.0:
   version "18.2.0"
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/react-dom/-/react-dom-18.2.0.tgz#22aaf38708db2674ed9ada224ca4aa708d821e3d"
@@ -1445,12 +1678,32 @@ react-dom@^18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
+react-is@^16.13.1:
+  version "16.13.1"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
+  integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
+
+react-window@^1.8.6:
+  version "1.8.9"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/react-window/-/react-window-1.8.9.tgz#24bc346be73d0468cdf91998aac94e32bc7fa6a8"
+  integrity sha1-JLw0a+c9BGjN+RmYqslOMrx/pqg=
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    memoize-one ">=3.1.1 <6"
+
 react@^18.2.0:
   version "18.2.0"
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
   integrity sha1-VVvZhZKIMlX6AN4U8RUakXtdd9U=
   dependencies:
     loose-envify "^1.1.0"
+
+reactcss@^1.2.0:
+  version "1.2.3"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/reactcss/-/reactcss-1.2.3.tgz#c00013875e557b1cf0dfd9a368a1c3dab3b548dd"
+  integrity sha1-wAATh15Vexzw39mjaKHD2rO1SN0=
+  dependencies:
+    lodash "^4.0.1"
 
 read-cache@^1.0.0:
   version "1.0.0"
@@ -1465,6 +1718,11 @@ readdirp@~3.6.0:
   integrity sha1-dKNwvYVxFuJFspzJc0DNQxoCpsc=
   dependencies:
     picomatch "^2.2.1"
+
+regenerator-runtime@^0.14.0:
+  version "0.14.0"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/regenerator-runtime/-/regenerator-runtime-0.14.0.tgz#5e19d68eb12d486f797e15a3c6a918f7cec5eb45"
+  integrity sha1-XhnWjrEtSG95fhWjxqkY987F60U=
 
 resolve-from@^4.0.0:
   version "4.0.0"
@@ -1485,6 +1743,11 @@ reusify@^1.0.4:
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/reusify/-/reusify-1.0.4.tgz#90da382b1e126efc02146e90845a88db12925d76"
   integrity sha1-kNo4Kx4SbvwCFG6QhFqI2xKSXXY=
 
+rifm@^0.12.0:
+  version "0.12.1"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/rifm/-/rifm-0.12.1.tgz#8fa77f45b7f1cda2a0068787ac821f0593967ac4"
+  integrity sha1-j6d/RbfxzaKgBoeHrIIfBZOWesQ=
+
 rimraf@^3.0.2:
   version "3.0.2"
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/rimraf/-/rimraf-3.0.2.tgz#f1a5402ba6220ad52cc1282bac1ae3aa49fd061a"
@@ -1498,6 +1761,13 @@ rollup@^3.27.1:
   integrity sha1-l3aXdMyqajBZCD1GgPyr2OrQEok=
   optionalDependencies:
     fsevents "~2.3.2"
+
+rtl-css-js@^1.16.1:
+  version "1.16.1"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/rtl-css-js/-/rtl-css-js-1.16.1.tgz#4b48b4354b0ff917a30488d95100fbf7219a3e80"
+  integrity sha1-S0i0NUsP+RejBIjZUQD79yGaPoA=
+  dependencies:
+    "@babel/runtime" "^7.1.2"
 
 run-parallel@^1.1.9:
   version "1.2.0"
@@ -1553,6 +1823,11 @@ strip-json-comments@^3.1.1:
   version "3.1.1"
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/strip-json-comments/-/strip-json-comments-3.1.1.tgz#31f1281b3832630434831c310c01cccda8cbe006"
   integrity sha1-MfEoGzgyYwQ0gxwxDAHMzajL4AY=
+
+stylis@^4.2.0:
+  version "4.3.0"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/stylis/-/stylis-4.3.0.tgz#abe305a669fc3d8777e10eefcfc73ad861c5588c"
+  integrity sha1-q+MFpmn8PYd34Q7vz8c62GHFWIw=
 
 sucrase@^3.32.0:
   version "3.34.0"
@@ -1631,6 +1906,11 @@ thenify-all@^1.0.0:
   dependencies:
     any-promise "^1.0.0"
 
+tinycolor2@^1.4.1, tinycolor2@^1.4.2:
+  version "1.6.0"
+  resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/tinycolor2/-/tinycolor2-1.6.0.tgz#f98007460169b0263b97072c5ae92484ce02d09e"
+  integrity sha1-+YAHRgFpsCY7lwcsWukkhM4C0J4=
+
 to-regex-range@^5.0.1:
   version "5.0.1"
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/to-regex-range/-/to-regex-range-5.0.1.tgz#1648c44aae7c8d988a326018ed72f5b4dd0392e4"
@@ -1648,7 +1928,7 @@ tslib@^1.8.1:
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha1-zy04vcNKE0vK8QkcQfZhni9nLQA=
 
-tslib@^2.0.0:
+tslib@^2.0.0, tslib@^2.1.0, tslib@^2.4.0:
   version "2.6.2"
   resolved "https://artifacts-read.gkp.jpmchase.net/artifactory/api/npm/npm/tslib/-/tslib-2.6.2.tgz#703ac29425e7b37cd6fd456e92404d46d1f3e4ae"
   integrity sha1-cDrClCXns3zW/UVukkBNRtHz5K4=
